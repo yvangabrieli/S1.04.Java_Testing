@@ -62,5 +62,5 @@ Create a class with a method that throws an `ArrayIndexOutOfBoundsException`.
 ## 🛠️ Installation
 1. Clone the repository:  
 ```bash
-git clone https://github.com/yvangabrieli/S1.03.Java_Testing
+git clone https://github.com/yvangabrieli/S1.04.Java_Testing
 ```
