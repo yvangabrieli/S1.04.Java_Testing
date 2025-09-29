@@ -1,6 +1,9 @@
-package ejercicio2;
+package ejercicio2.Test;
 
 import static org.junit.Assert.assertEquals;
+
+import ejercicio2.IdCalculation;
+import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
@@ -36,6 +39,6 @@ public class IdCalculationTest {
     }
     @Test
     public void testCalculateLetter () {
-        assertEquals(expectedIdLetter, IdCalculation.calculateLetter(numberId));
+        Assert.assertEquals(expectedIdLetter, IdCalculation.calculateLetter(numberId));
     }
 }

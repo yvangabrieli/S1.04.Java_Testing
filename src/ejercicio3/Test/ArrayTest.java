@@ -1,6 +1,7 @@
-package ejercicio3;
+package ejercicio3.Test;
 
 
+import ejercicio3.Array;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
